@@ -1,0 +1,25 @@
+@import url(./reset.css);
+@import url(./button/button.css);
+
+html {
+    font-size: 62.5%;
+
+
+    /* Colors */
+    --primary-color: #FCD34D;
+    --secondary-color: #60A5FA;
+    --black: #1F2937;
+    --white: #F3F4F6;
+
+
+    /* Typography */
+    --title-font: Lato;
+    --description-font: Roboto;
+}
+
+
+@media only screen and (min-width: 800px){
+	html {
+        font-size: 100%;
+    }
+}

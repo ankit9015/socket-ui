@@ -1,8 +1,15 @@
+html{
+    --success_bg-color: rgb(133, 214, 133);
+    --error__bg-color:  rgb(228, 88, 88);
+    --warning__bg-color: rgb(236, 236, 82);
+    --info__bg-color: rgb(92, 235, 235);
+}
+
+
 .alert {
     color: rgb(53, 52, 52);
     font-family: "FontAwesome";
     padding: 5px 10px;
-    /* box-shadow: 5px 10px; */
     margin: 5px;
 }
 
@@ -13,19 +20,19 @@
 /* ------------------------------- specific alerts ----------------------- */
 
 .alert-success {
-    background-color: rgb(133, 214, 133);
+    background-color: var(--success_bg-color);
 }
 
 .alert-error {
-    background-color: rgb(228, 88, 88);
+    background-color: var(--error__bg-color)
 }
 
 .alert-warning {
-    background-color: rgb(236, 236, 82);
+    background-color: var(--warning__bg-color)
 }
 
 .alert-info {
-    background-color: rgb(92, 235, 235);
+    background-color: var(--info__bg-color)
 }
 
 /* ---------------------------icons for specific alerts------------- */
