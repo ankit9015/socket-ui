@@ -1,0 +1,57 @@
+html{
+    --success_bg-color: rgb(133, 214, 133);
+    --error__bg-color:  rgb(228, 88, 88);
+    --warning__bg-color: rgb(236, 236, 82);
+    --info__bg-color: rgb(92, 235, 235);
+}
+
+
+.alert {
+    color: rgb(53, 52, 52);
+    font-family: "FontAwesome";
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.alert .alert-title {
+    display: inline;
+}
+
+/* ------------------------------- specific alerts ----------------------- */
+
+.alert-success {
+    background-color: var(--success_bg-color);
+}
+
+.alert-error {
+    background-color: var(--error__bg-color)
+}
+
+.alert-warning {
+    background-color: var(--warning__bg-color)
+}
+
+.alert-info {
+    background-color: var(--info__bg-color)
+}
+
+/* ---------------------------icons for specific alerts------------- */
+
+.alert-success::before {
+    content: '\f058';
+}
+
+.alert-warning::before {
+    content: '\f071';
+}
+
+.alert-error::before {
+    content: '\f06a';
+}
+
+.alert-info::before {
+    content: '\f05a';
+}
+
+
+
