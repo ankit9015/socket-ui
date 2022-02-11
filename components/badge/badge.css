@@ -1,37 +1,27 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-
-
-
-
-
-
 
 
 .badge {
-    padding: 5px;
+    width: min-content;
+    height: min-content;
+    position: relative;
+}
+
+
+.badge-count {
+    font-size: 1em;
+    padding: 0.1rem 0.35rem;
     border-radius: 50%;
-    width: 2ex;
-    height: 2ex;
     background-color: rgb(0, 255, 76);
+
     position: absolute;
     top: 0%;
     right: 0%;
-    transform: translate(50%, -50%);
-}
-
-.container {
-    font-size: 3rem;
-    position: relative;
-    background-color: brown;
-    display: inline;
-    padding: 10px;;
+    transform: translate(50%, -50%);   
 }
 
 
-
+.container-badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
