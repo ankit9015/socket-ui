@@ -1,0 +1,43 @@
+html {
+    font-size: 62.5%;
+}
+
+.avatar {
+    border-radius: 50%;
+    
+    width: 3ex;      /*width and height of the avatara is controlled by font-size in -sm -md -l*/
+    height: 3ex;
+}
+
+
+
+.avatar-sm {
+    font-size: 3rem;
+}
+
+.avatar-md {
+    font-size: 4rem;
+}
+
+.avatar-l {
+    font-size: 5rem;
+}
+
+
+
+.avatar-square {
+    border-radius: 4px;
+}
+
+.avatar-text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.avatar-text span,
+.avatar i {
+    font-size: 50%;
+}
+
