@@ -1,0 +1,89 @@
+@import url(../components.css);
+
+.button {
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin : 0 1rem 1rem 0;
+    cursor: pointer;
+  }
+
+  .large-button {
+    padding: 0.8rem 1rem;
+  }
+
+
+  .small-button {
+    font-size: 0.8rem;
+    border-radius: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .button-primary {
+    background-color: var(--primary-color);
+    color: var(--black);
+  }
+
+  .button-outline-primary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    background-color: var(--white);
+  }
+
+  .button-secondary {
+    color: var(--white);
+    background-color: var(--secondary-color);
+  }
+
+  .button-outline-secondary {
+    color: var(--secondary-color);
+    background-color: var(--white);
+    border: 2px solid var(--secondary-color);
+  }
+
+
+
+
+
+
+
+  /* -----------------------floating button ----------------------- */
+
+  i{
+      cursor: pointer;
+  }
+
+
+  .floating-button {
+    margin: 5px;
+    font-size: 3.5rem;
+  }
+
+  .floating-button-primary {
+    color: var(--primary-color);
+  }
+
+  .floating-button-secondary {
+    color: var(--secondary-color);
+  }
+
+
+  
+
+  /* ---------------------Link--------------------------- */
+
+  .links-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .link {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+  }
