@@ -25,3 +25,10 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.badge-text {
+    font-size: 1em;
+    padding: 0.1rem 0.35rem;
+    border-radius: 0.05em;
+    position: absolute;
+}
