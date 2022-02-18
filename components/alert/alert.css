@@ -1,8 +1,8 @@
 html{
-    --success_bg-color: rgb(133, 214, 133);
-    --error__bg-color:  rgb(228, 88, 88);
+    --success_bg-color: rgb(140, 209, 140);
+    --error__bg-color:  rgb(247, 192, 192);
     --warning__bg-color: rgb(236, 236, 82);
-    --info__bg-color: rgb(92, 235, 235);
+    --info__bg-color: rgb(140, 230, 230);
 }
 
 
