@@ -1,8 +1,12 @@
-@import url(./reset.css);
-@import url(./button/button.css);
+
+@import url(../reset.css);
+@import url(./button/button.css); 
 @import url(./alert/alert.css);
 @import url(./avatar/avatar.css);
 @import url(./badge/badge.css);
+@import url(./text-utilities/text-utilities.css);
+@import url(./cards/card.css);
+
 
 
 
@@ -14,7 +18,7 @@ html {
 
     /* Colors */
     --primary-color: #FCD34D;
-    --secondary-color: #60A5FA;
+    --secondary-color: #1a57a1;
     --black: #1F2937;
     --white: #F3F4F6;
 
