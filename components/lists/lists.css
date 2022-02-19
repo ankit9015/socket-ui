@@ -45,6 +45,7 @@ html {
 
 .list-container,
 .stacked-list-container {
+    margin: 5px;
     line-height: 1.2;
     font-size: 1.5rem;
 }
