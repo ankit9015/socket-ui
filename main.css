@@ -1,42 +1,17 @@
 @import url(./reset.css);
 @import url(./components/components.css);
 
-/* html {
+html {
     font-size: 62.5%;
-} */
+}
 
-/* @media only screen and (max-width: 800px){
-	html {
-        font-size: 50%;
-    }
-} */
 
-body {
-    
+
+body {  
     background-color: white;
 }
 
-header {
-    background-color: var(--primary-color);
-    padding: 0.5rem; 
-    display: flex;
-    justify-content: space-between;    
-}
 
-.logo-img {
-    width: 10rem;
-    height: 4rem;
-    padding: -0.5rem;
-}
-
-
-nav, 
-.socials {
-    display: flex;
-    gap: 1rem;
-    font-size: 1.2rem;
-    align-items: center;
-}
 
 
 .hero-img {
@@ -45,32 +20,42 @@ nav,
 }
 
 
-main {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.2rem;
-}
+
 
 aside {
  background-color: var(--white);
- /* width: 5rem; */
- display: flex;
- flex-direction: column;
- justify-content: center;
+ align-self: stretch;
  gap: 1rem;
- height: 100vh;
+ min-width: 400px;
  width: 25vw;
- align-items: center;
+ box-shadow: 0px 6px 16px 0px var(--shadow-gray);
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 75vw;
+    height: 100vh;
+    padding: 10rem 4rem;
+    overflow-y: scroll;
 }
 
+.doc-description {
+    line-height: 1.2;
+}
 
+.media-main,
+.media-main-vertical {
+    display: block;
+    margin: 0 auto;
+}
 
+.media-main {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+}
 
+.media-main-vertical {
+    width: auto;
+    height: auto;
+}
 

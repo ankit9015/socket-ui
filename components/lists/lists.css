@@ -1,6 +1,4 @@
-html {
 
-}
 
 .outer-list-container {
     display: flex;
@@ -18,7 +16,7 @@ html {
 }
 
 .list-style-circle {
-    list-style: round;
+    list-style: circle;
 }
 
 .list-style-none {

@@ -63,12 +63,12 @@
 
 
 .font-semibold {
-    font-weight:600;  
+    font-weight:500;  
 }
 
 
 .font-medium {
-    font-weight:500;   
+    font-weight:400;   
 }
 
 
@@ -90,3 +90,10 @@
 .text-gray {
     color: gray;
 }
+
+.line-height-s {
+    line-height: 2;
+}
+p{
+    color: var(--black);
+} 
