@@ -1,12 +1,18 @@
 
 
 @import url(../reset.css);
-@import url(./button/button.css); 
+@import url(./utilities.css);
 @import url(./alert/alert.css);
 @import url(./avatar/avatar.css);
 @import url(./badge/badge.css);
-@import url(./text-utilities/text-utilities.css);
+@import url(./button/button.css);
 @import url(./cards/card.css);
+@import url(./form/form.css);
+@import url(./lists/lists.css);
+@import url(./navigation/navigation.css);
+@import url(./responsive-images/responsive-images.css);
+@import url(./text-utilities/text-utilities.css);
+
 
 
 

@@ -1,0 +1,26 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrapped {
+    flex-wrap: wrap;
+}
+
+.bg-color-gray {
+    background-color: rgb(199, 197, 197);
+}
+
+.bg-color-blue {
+    background-color: rgb(54, 149, 238)
+}

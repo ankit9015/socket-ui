@@ -23,7 +23,12 @@
 .container-badges {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+
 }
 
 .badge-text {
@@ -31,4 +36,7 @@
     padding: 0.1rem 0.35rem;
     border-radius: 0.05em;
     position: absolute; 
+    top: 0%;
+    right: 0%;
+    transform: translate(50%, -50%); 
 }
