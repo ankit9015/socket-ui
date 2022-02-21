@@ -5,7 +5,7 @@ This is a compoent library!!
 
 ## Giphy
 
-![CleanUI GIF](./images/document.mp4)
+![SocketUI GIF](./images/document.mp4)
 
 ---
 
