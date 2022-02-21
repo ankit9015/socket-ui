@@ -17,6 +17,7 @@ body {
 .hero-img {
     width: 100vw;
     height: auto;
+    object-fit: contain;
 }
 
 
@@ -57,5 +58,13 @@ section {
 .media-main-vertical {
     width: auto;
     height: auto;
+}
+
+.no-link {
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 2rem;
 }
 
