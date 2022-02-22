@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 @import url(../reset.css);
 @import url(./utilities.css);
@@ -14,25 +14,34 @@
 @import url(./text-utilities/text-utilities.css);
 
 
-
-
-
-
-
 html {
     font-size: 62.5%;
 
 
     /* Colors */
     --primary-color: #FCD34D;
-    --secondary-color: #1a57a1;
+    --secondary-color: #2563EB;
     --black: #1F2937;
     --white: #F3F4F6;
+    --gray: rgb(228, 224, 224);
+    --dark-gray: rgb(105, 103, 103);
 
 
     /* Typography */
-    --title-font: Lato;
-    --description-font: Roboto;
+    --title-font: 'Lato', sans-serif;
+    --description-font: 'Roboto', sans-serif;
+}
+
+body {
+    font: var(--description-font);
+}
+
+.title-font {
+    font: var(--title-font);
+}
+
+.description-font {
+    font: var(--description-font);
 }
 
 

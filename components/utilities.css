@@ -24,3 +24,46 @@
 .bg-color-blue {
     background-color: rgb(54, 149, 238)
 }
+
+
+/* --------------------Padding------------------- */
+/* spacing values are written based on 1rem = 10px mentioned in root of component.css */
+
+.p-xs {
+    padding: 0.8rem;  
+}
+.p-s {
+    padding: 1.6rem;
+}
+.p-m {
+    padding: 2.4rem;
+}
+.p-l {
+    padding: 3.2rem;
+}
+.p-xl {
+    padding: 4rem;
+}
+.p-xxl {
+    padding: 4.8rem;
+}
+
+/* --------------------------Margin--------------------- */
+.m-xs {
+    margin: 0.8rem;  
+}
+.m-s {
+    margin: 1.6rem;
+}
+.m-m {
+    margin: 2.4rem;
+}
+.m-l {
+    margin: 3.2rem;
+}
+.m-xl {
+    margin: 4rem;
+}
+.m-xxl {
+    margin: 4.8rem;
+}
