@@ -1,0 +1,35 @@
+html {
+  --gold-color: rgb(255, 215, 0);
+}
+
+.ratings-container {
+  display: flex;
+  gap: 5px;
+  font-size: 1.6rem;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.checked {
+  color: var(--gold-color);
+}
+
+.badge-ratings-container {
+  display: inline-flex;
+  background-color: var(--secondary-color);
+  gap: 5px;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rating-num {
+  color: white;
+}
+
+.ratings-container:hover,
+.badge-ratings-container:hover {
+  transform: scale(1.2);
+  transition: ease-in;
+}
