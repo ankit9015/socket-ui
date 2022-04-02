@@ -1,0 +1,40 @@
+html {
+  --success-bg-color: rgb(204, 249, 204);
+  --error-bg-color: rgb(247, 192, 192);
+  --green: rgb(17, 177, 17);
+  --red: rgb(234, 57, 57);
+}
+
+.toast-error,
+.toast-success {
+  display: inline-flex;
+  gap: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.toast-success {
+  border: 2px solid var(--green);
+  background-color: var(--success-bg-color);
+  color: var(--green);
+}
+
+.toast-error {
+  border: 2px solid var(--red);
+  background-color: var(--error-bg-color);
+  color: var(--red);
+}
+
+.toast-cross {
+  align-self: center;
+  color: var(--dark-gray);
+  margin: 5px;
+  cursor: pointer;
+}
+
+.toast-cross:hover {
+  transform: scale(1.2);
+  color: var(--black);
+  transition: ease-in;
+}

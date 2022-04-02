@@ -1,90 +1,80 @@
 html {
-    --placeholder-color: rgb(99, 97, 97);  
-    --input-invalid: rgb(211, 46, 46);
-    --input-valid: rgb(32, 204, 32);
-    --input-border: rgb(167, 164, 164); /* default border */
-    --focus-border: rgb(12, 1, 1);
+  --placeholder-color: rgb(99, 97, 97);
+  --input-invalid: rgb(211, 46, 46);
+  --input-valid: rgb(32, 204, 32);
+  --input-border: rgb(167, 164, 164); /* default border */
+  --focus-border: rgb(12, 1, 1);
 }
 
 .socketui-input {
-    border: var(--input-border) 2px solid;
-    font-size: 1rem;
-    margin: 0.25rem;
-    padding: 0.5rem;
+  border: var(--input-border) 2px solid;
+  font-size: 1rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
 }
 
-
 .socketui-input:focus {
-    border-color: var(--focus-border);
-    opacity: 100%;
+  border-color: var(--focus-border);
+  opacity: 100%;
 }
 
 .socketui-input:valid {
-    border-color: var(--input-valid);
-    opacity: 100%;
+  border-color: var(--input-valid);
+  opacity: 100%;
 }
-
-
 
 .socketui-input:invalid {
-    border-color: var(--input-invalid);
+  border-color: var(--input-invalid);
 }
 
-
 .socketui-input::placeholder {
-    color: var(--placeholder-color);
-    font-weight: bold;
-    font-style: italic;
+  color: var(--placeholder-color);
+  font-weight: bold;
+  font-style: italic;
 }
 
 .socketui-input:placeholder-shown {
-    border-color: var(--input-border);
+  border-color: var(--input-border);
 }
 
 .socketui-input:focus:invalid {
-    border-color: var(--input-invalid);
-    background-color: var(--error__bg-color);
+  border-color: var(--input-invalid);
+  background-color: var(--error-bg-color);
 }
 
-
-
-
 .socketui-input:not(:required) {
-    opacity: 60%;
+  opacity: 60%;
 }
 
 .socketui-input:not(:required):focus {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .socketui-input.button {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 /* -------------------- form label -------------- */
 
 .socketui-label {
-    display: block;
+  display: block;
 }
 
 .label-required::after {
-    content: '*';
-    color: red;
-    font-size: 1rem;
-    margin: 1ch;
+  content: "*";
+  color: red;
+  font-size: 1rem;
+  margin: 1ch;
 }
-
-
 
 /* ----------------------- form container ---------------- */
 
 .form-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .form-elements {
-    display: flex;
-
+  display: flex;
 }
