@@ -55,8 +55,9 @@
       <!-- ----------------------- Navbar right end -------------------------- -->
     </nav>
   </header>
-  <main class="flex-row">
-    <aside class="flex-column flex-center">
+  <main class="flex-row document-main">
+    <aside class="flex-column flex-align-center">
+      <hr class="no-visible p-xxl"/>
       <h2 class="H2 font-bold">Get Started</h2>
       <ul class="list-container">
         <li class="list-item text-md">Installation</li>
@@ -89,20 +90,21 @@
           that you can easily combine to build responsive web interfaces.
         </p>
 
+        <hr class="no-visible p-s"/>
         <h2 class="H3 font-bold">Installation</h2>
         <p class="text-md font-light">
           You can directly import the css file in your html using the following link tag.
         </p>
-        <iframe class="media-main"
+        <iframe class="media-main p-s"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fsocket-ui.netlify.app%252Fcomponents%252Fcomponents.css%2522%252F%253E"
           style="width: 876px; border:0; transform: scale(1);"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
 
+      
+        <p class="text-md font-light ">or</p>
 
-        <p class="text-md font-light">or</p>
-
-        <iframe class="media-main"
+        <iframe class="media-main p-s"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2540import%2520url%28https%253A%252F%252Fsocket-ui.netlify.app%252Fcomponents%252Fcomponents.css%29"
           style="width: 1024px; height: 189px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -110,7 +112,7 @@
 
         <p class="text-md font-bold">Use Font Awesome Icons, by copying the link below to your html page.</p>
 
-        <iframe class="media-main"
+        <iframe class="media-main p-s"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-awesome%252F4.7.0%252Fcss%252Ffont-awesome.min.css%2522%253E"
           style="width: 1024px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -138,9 +140,11 @@
 
         </ul>
         <!-- Getting started end  -->
+        <hr class="no-visible p-l"/>
 
         <h1 class="H1 font-bold ">Components</h1>
 
+        <hr class="no-visible p-s"/>
         <!-- Alert start -->
         <h2 class="H2 font-bold" id="Alert">Alerts</h2>
         <p class="text-md font-light">
@@ -167,13 +171,14 @@
             <p>This alert is for warning, so stop and check whatever you are parsing.</p>
         </div>
         </div>
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522alert-title%2522%253ESuccess%2520alert%253C%252Fh2%253E%250A%2520%2520%253Cp%253EGreen%2520alert%2520is%2520for%2520success%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522alert-title%2522%253EError%253C%252Fh2%253E%250A%2520%2520%253Cp%253EAn%2520error%2520occured%2520because%2520you%2520used%2520alert-error%2520class.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522alert-title%2522%253EInfo%253C%252Fh2%253E%250A%2520%2520%253Cp%253EThis%2520is%2520alert%2520is%2520for%2520information%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522alert-title%2522%253EWarning%253C%252Fh2%253E%250A%2520%2520%253Cp%253EThis%2520alert%2520is%2520for%2520warning%252C%2520so%2520stop%2520and%2520check%2520whatever%2520you%2520are%2520parsing.%253C%252Fp%253E%250A%253C%252Fdiv%253E"
           style="width: 800px; height: 468px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Alert end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Avatar start -->
         <h2 class="H2 font-bold " id="Avatar">Avatar</h2>
         <p class="text-md font-light">
@@ -192,7 +197,7 @@
         </div>
         </div>
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1%252F200%252F300%2522%2520alt%253D%2522demo-image%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2520%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1%252F200%252F300%2522%2520alt%253D%2522demo-image%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-l%2520%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1%252F200%252F300%2522%2520alt%253D%2522demo-image%2522%253E"
           style="width: 885px; height: 226px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -207,7 +212,7 @@
         </div>
         </div>
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cimg%2520class%253D%2522avatar%2520avatar-square%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1%252F200%252F300%2522%2520alt%253D%2522demo-image%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-square%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1%252F200%252F300%2522%2520alt%253D%2522demo-image%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-square%2520avatar-l%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1%252F200%252F300%2522%2520alt%253D%2522demo-image%2522%253E"
           style="width: 994px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -229,7 +234,7 @@
         </div>
         
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-sm%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bicycle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-md%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bicycle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-l%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bicycle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
           style="width: 488px; height: 338px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -251,13 +256,14 @@
         </div>
         
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-text%2522%253E%250A%2520%2520%253Cspan%253Eboy%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-text%2522%253E%250A%2520%2520%253Cspan%253Eboy%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-l%2520avatar-text%2522%253E%250A%2520%2520%253Cspan%253Eboy%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
           style="width: 488px; height: 375px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Avatar end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Badge start -->
         <h2 class="H2 font-bold " id="Badge">Badge</h2>
         <p class="text-md font-light">
@@ -292,13 +298,14 @@
         </div>
         
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-count%2522%253E5%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-count%2522%253E9%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1%252F200%252F300%2522%2520alt%253D%2522demo-image%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-count%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2520flex-row%2520bg-color-gray%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-md%2522%253ESome%2520Message%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-text%2520bg-color-blue%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
           style="width: 893px; height: 542px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Badge end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Button start -->
         <h2 class="H2 font-bold " id="Button">Button</h2>
         <p class="text-md font-light">
@@ -315,7 +322,7 @@
         </div>
         </div>
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-primary%2520large-button%2522%253ELarge-button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPrimary-solid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-primary%2520small-button%2522%253ESmall-btn%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outline-primary%2522%253EPrimary-outline%253C%252Fbutton%253E"
           style="width: 742px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -329,7 +336,7 @@
         </div>
         </div>
        
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253ESecondary%2520button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outline-secondary%2522%253ESecondary%2520Outline%2520button%253C%252Fbutton%253E"
           style="width: 817px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -352,7 +359,7 @@
         </div>
         </div>
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fab%2520fa-instagram%2522%253E%253C%252Fi%253E%2520Follow%2520on%2520Instagram%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-thumbs-up%2522%253E%253C%252Fi%253E%2520Like%2520%253C%252Fbutton%253E"
           style="width: 674px; height: 282px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -366,7 +373,7 @@
         </div>
         </div>
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522floating-button%2520floating-button-primary%2520fas%2520fa-plus-circle%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522floating-button%2520floating-button-secondary%2520fas%2520fa-bars%2522%253E%253C%252Fi%253E"
           style="width: 758px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -381,13 +388,14 @@
         </div>
         </div>
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link-btn%2520button-primary%2522%253EPrimary%2520link%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link-btn%2520button-secondary%2522%253ESecondary%2520link%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link-btn%2520button-outline-secondary%2522%253EOutline%2520link%253C%252Fa%253E"
           style="width: 725px; height: 226px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Button end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Card start -->
         <h2 class="H2 font-bold " id="Card">Card</h2>
         <p class="text-md font-light">
@@ -411,7 +419,7 @@
         </div>
         
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253Dhttps%253A%252F%252Fpicsum.photos%252F200%252F200%2520alt%253D%2522card%2520image%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title-sub%2520%2522%253ESub-title%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ESome%2520quick%2520example%2520text%2520to%2520build%2520on%2520the%2520card%2520title%2520and%2520make%2520up%2520the%2520bulk%2520of%2520the%2520card%27s%2520content.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-btn%2520link-btn%2520button-primary%2522%253EKnow%2520More%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
           style="width: 1024px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -434,7 +442,7 @@
       </div>
         </div>
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520card-shadow%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253Dhttps%253A%252F%252Fpicsum.photos%252F200%252F200%2520alt%253D%2522card%2520image%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge-text%2522%253EHot%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520card-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title-sub%2520%2522%253ESub-title%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ESome%2520quick%2520example%2520text%2520to%2520build%2520on%2520the%2520card%2520title%2520and%2520make%2520up%2520the%2520bulk%2520of%2520the%2520card%27s%2520content.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-btn%2520link-btn%2520button-primary%2522%253EKnow%2520More%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
           style="width: 1024px; height: 394px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -453,13 +461,14 @@
           <p class="text-overlay text-extrabold text-md text-center">Overlayed Text</p>
       </div>
       </div>
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520text-overlay-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ESome%2520quick%2520example%2520text%2520to%2520build%2520on%2520the%2520card%2520title%2520and%2520make%2520up%2520the%2520bulk%2520of%2520the%2520card%27s%2520content.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-btn%2520link-btn%2520button-primary%2522%253EKnow%2520More%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cp%2520class%253D%2522text-overlay%2520text-extrabold%2520text-md%2520text-center%2522%253EOverlayed%2520Text%253C%252Fp%253E%250A%253C%252Fdiv%253E"
           style="width: 1024px; height: 338px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Card end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Input form start -->
         <h2 class="H2 font-bold " id="Input-form">Input form</h2>
         <p class="text-md font-light">Form components display a record of data, usually for editing. Forms contain
@@ -495,13 +504,14 @@
           </div>
       </div>
       </div>  
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522form-element%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522socketui-label%2520label-required%2522%2520for%253D%2522fullname%2522%253EName%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522socketui-input%2522%2520type%253D%2522text%2522%2520name%253D%2522fullname%2522%2520id%253D%2522fullname%2522%2520placeholder%253D%2522Gabbar%2520Singh%2522%2520required%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522form-element%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522socketui-label%2520label-required%2522%2520for%253D%2522email%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522socketui-input%2522%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520id%253D%2522email%2522%2520placeholder%253D%2522xyz%2540abc.com%2522%2520required%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522form-element%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522socketui-label%2520label-required%2522%2520for%253D%2522password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522socketui-input%2522%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520id%253D%2522password%2522%2520placeholder%253D%2522******%2522%2520required%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522form-element%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522socketui-label%2522%2520for%253D%2522website-url%2522%253EWebsite%2520link%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522socketui-input%2522%2520type%253D%2522url%2522%2520name%253D%2522website-url%2522%2520id%253D%2522website-url%2522%2520placeholder%253D%2522http%253A%252F%252F%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522form-element%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522socketui-input%2520button%2520button-primary%2522%2520type%253D%2522button%2522%2520value%253D%2522Submit%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
           style="width: 1024px; height: 617px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Input form end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Responsive Images start -->
         <h2 class="H2 font-bold " id="Responsive-Images">Responsive Images</h2>
         <p class="text-md font-light">
@@ -509,17 +519,50 @@
           performance of the website in comparison to static images.
         </p>
         
-        <div class="border-box m-m p-m">
-        <video class="media-main" controls src="./images/Responsive images.mp4"></video>
+        <div class="border-box m-m p-m responsive-images-container">
+          <div class="circuar-img-container">
+            <h3 class="H3">Round Images</h3>
+            <div>
+                <h4 class="H4">Circular image from landscape image</h4>
+                <div class="circle-landscape-img">
+                    <img  src="https://picsum.photos/600/200" alt="landscape to circle image">
+                </div>  
+            </div>
+                
+    
+            <div>
+                <h4 class="H4">Circular image from portrait image</h4>
+                <div class="circle-portrait-img">
+                    <img src="https://picsum.photos/200/500" alt="postrait to circle image">
+                </div>
+            </div>
+    
+    
+            <div class="round-img-container">
+                <h4 class="H4">Circular image from square image</h4>
+                <img class="circle-img" src="https://picsum.photos/200/200" alt="landscape to circle image">
+                
+            </div>    
+        </div>
+    
+        <div class="fluid-img-container m-xxl border-box">
+            <h3 class="text-center H3">Fluid Image</h3>
+            <div class="fluid-img">
+                <img src="https://picsum.photos/400/500" alt="responsive image" 
+                srcset="https://picsum.photos/200/300 200w, https://picsum.photos/300/400 300w https://picsum.photos/500/600 500w">
+            </div>
+        </div>
+        <!-- <video class="media-main" controls src="./images/Responsive images.mp4"></video> -->
       </div>
 
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522circuar-img-container%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Ch2%253ECircular%2520image%2520from%2520landscape%2520image%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522circle-landscape-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F600%252F200%2522%2520alt%253D%2522landscape%2520to%2520circle%2520image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Ch2%253ECircular%2520image%2520from%2520portrait%2520image%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522circle-portrait-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F500%2522%2520alt%253D%2522postrait%2520to%2520circle%2520image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522round-img-container%2522%253E%250A%2520%2520%2520%2520%253Ch2%253ECircular%2520image%2520from%2520square%2520image%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522circle-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F200%2522%2520alt%253D%2522landscape%2520to%2520circle%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%250A%253Cdiv%2520class%253D%2522fluid-img-container%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522text-center%2522%253EFluid%2520Image%253C%252Fh2%253E%250A%2520%2520%253Cdiv%2520class%253D%2522fluid-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F500%252F600%2522%2520alt%253D%2522responsive%2520image%2522%2520srcset%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F300%2520200w%252C%2520https%253A%252F%252Fpicsum.photos%252F400%252F500%2520300w%2520https%253A%252F%252Fpicsum.photos%252F600%252F800%2520500w%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
           style="width: 1024px; height: 710px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Responsive Images end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Text utilities start -->
         <h2 class="H2 font-bold " id="Text-Utilitites">Text Utilities</h2>
         
@@ -534,7 +577,7 @@
         <h6 class="H6">This is heading h6.</h6>
         </div> 
       </div>
-      <iframe class="media-main"
+      <iframe class="p-s media-main"
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522H1%2522%253EThis%2520is%2520heading%2520h1.%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522H2%2522%253EThis%2520is%2520heading%2520h2.%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522H3%2522%253EThis%2520is%2520heading%2520h3.%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522H4%2522%253EThis%2520is%2520heading%2520h4.%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522H5%2522%253EThis%2520is%2520heading%2520h5.%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522H6%2522%253EThis%2520is%2520heading%2520h6.%253C%252Fh6%253E"
   style="width: 602px; height: 282px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
@@ -552,9 +595,9 @@
           <p class="text-xs">This is extra small text.</p>
       </div>
     </div>
-    <iframe class="media-main"
+    <iframe class="p-s media-main"
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-xxl%2522%253EThis%2520is%2520extra-extra%2520large%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-xl%2522%253EThis%2520is%2520extra%2520large%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lg%2522%253EThis%2520is%2520large%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-md%2522%253EThis%2520is%2520medium%2520size%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-sm%2522%253EThis%2520is%2520small%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-xs%2522%253EThis%2520is%2520extra%2520small%2520text.%253C%252Fp%253E"
-  style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+  style="width: 581px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
         
@@ -574,7 +617,7 @@
       </div>
         
         
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522font-extrabold%2522%253EThe%2520best%2520is%2520yet%2520to%2520be.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-bold%2522%253EThe%2520best%2520is%2520yet%2520to%2520be.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-semibold%2522%253EThe%2520best%2520is%2520yet%2520to%2520be.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-medium%2522%253EThe%2520best%2520is%2520yet%2520to%2520be.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-light%2522%253EThe%2520best%2520is%2520yet%2520to%2520be.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-extralight%2522%253EThe%2520best%2520is%2520yet%2520to%2520be.%253C%252Fp%253E%250A%2520%2520"
           style="width: 581px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -582,12 +625,13 @@
 
         <div class="border-box m-m p-m">
         <h3 class="H3">Gray text and Center text</h3>
-        <div class="flex-column flex-center"></div>
+
         <p class="text-gray text-md">This is gray text</p>
         <p class="text-center text-md">This is center text</p>
         </div>
-      </div>
-        <iframe class="media-main"
+
+      
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-gray%2520text-md%2522%253EThis%2520is%2520gray%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-center%2520text-md%2522%253EThis%2520is%2520center%2520text%253C%252Fp%253E"
           style="width: 657px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -596,8 +640,9 @@
 
         <!-- Text utilities end -->
 
+        <hr class="no-visible p-s"/>
         <!-- Lists start -->
-        <h2 class="H2 font-bold " id="Lists">Lists</h2>
+        <h2 class="H2 font-bold" id="Lists">Lists</h2>
         <p class="text-md font-light">
           Lists are used to specify lists of information. All lists may contain one or more list elements.
           There are two different types of lists: Ordered List or Numbered List (ol), Unordered List or Bulleted List
@@ -633,7 +678,7 @@
         </div>
         </div>
        
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=602&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=div%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-style-square%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-style-circle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
   style="width: 602px; height: 614px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
@@ -691,7 +736,7 @@
           </div>
         </div>
         </div>
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%2520class%253D%2522text-center%2520text-xl%2520text-bold%2522%253EOrdered%2520list%253C%252Fh2%253E%250A%253Cdiv%2520class%253D%2522outer-list-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Col%2520class%253D%2522list-style-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Col%2520reversed%2520class%253D%2522list-style-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Col%2520class%253D%2522list-style-uppercase%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Col%2520class%253D%2522list-style-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Col%2520class%253D%2522list-style-upper-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem3%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
           style="width: 631px; height: 1008px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
@@ -745,13 +790,13 @@
           </ul>
         </div>
         </div>  
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-center%2520text-xl%2520text-bold%2522%253EStacked%2520list%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outer-list-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522stacked-list-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-image%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-bold%2520text-lg%2522%253EList%2520Heading%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Recusandae%252C%2520fugiat.%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252C%2520quaerat.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-image%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-bold%2520text-lg%2522%253EList%2520Heading%25202%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Recusandae%252C%2520fugiat.%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252C%2520quaerat.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-image%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-bold%2520text-lg%2522%253EList%2520Heading%25203%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Recusandae%252C%2520fugiat.%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252C%2520quaerat.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
           style="width: 1024px; height: 710px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Lists end -->
-
+        <hr class="no-visible p-s"/>
         <!-- Navigation component start -->
         <h2 class="H2 font-bold " id="Navigation">Navigation</h2>
         <p class="text-md font-light">The nav HTML element represents a section of a page whose purpose is to provide
@@ -759,16 +804,59 @@
           either within the current document or to other documents.</p>
 
         <div class="border-box m-m p-m">
-        <video class="media-main" controls src="./images/navigation bar.mp4"></video>
+          <nav class="navbar-container">
+
+            <!-- ------------------- Navbar left start ------------------- -->
+                <div class="navbar-left">
+                  <div class="hamburger-icon nav-icon-badge">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </div>
+                  <span class="nav-logo">
+                    <img class="logo-img" src="./images/logo-small.png" alt="logo">
+                  </span>
+                  <div class="navbar-links list-style-none">
+                    <a class="navbar-link-list-item" href="./index.html">Home</a>
+                    <a class="navbar-link-list-item" href="#">Doc</a>
+                  </div>
+                </div>
+                <!-- ----------------------- NavBar left end --------------- -->
+          
+                <!-- ---------------------- Navbar right start -------------------- -->
+                <div class="right-navbar">
+                  <div class="nav-icons list-style-none ">
+                    <a href="https://github.com/ankit9015" class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                      </span>
+                      <span class="nav-icon-text">Github</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ankitjoshi9015/" class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </span>
+                      <span class="nav-icon-text">Linkedin</span>
+                    </a>
+                    <a href="https://twitter.com/Ankitjoshi9015" class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </span>
+                      <span class="nav-icon-text">Twitter</span>
+                    </a>
+                  </div>
+                </div>
+            <!-- ----------------------- Navbar right end -------------------------- -->
+          </nav>
+        <!-- <video class="media-main" controls src="./images/navigation bar.mp4"></video> -->
         </div>
 
-        <iframe class="media-main"
+        <iframe class="p-s media-main"
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar-container%2522%253E%250A%2520%2520%253C%21--%2520-------------------%2520Navbar%2520left%2520start%2520-------------------%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522navbar-left%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hamburger-icon%2520nav-icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Flogo-small.png%2522%2520alt%253D%2522logo%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-links%2520list-style-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar-link-list-item%2522%2520href%253D%2522%252F%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar-link-list-item%2522%2520href%253D%2522%252F%2522%253EShop%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520-----------------------%2520NavBar%2520left%2520end%2520---------------%2520--%253E%250A%2520%2520%253C%21--%2520----------------------%2520Navbar%2520right%2520start%2520--------------------%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522right-navbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-icons%2520list-style-none%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%2520class%253D%2522nav-icon-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520nav-icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-icon-text%2522%253ELogin%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%2520class%253D%2522nav-icon-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520nav-icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2522%253E10%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-icon-text%2522%253EWishlist%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%2520class%253D%2522nav-icon-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520nav-icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2522%253E10%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-icon-text%2522%253ECart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520-----------------------%2520Navbar%2520right%2520end%2520--------------------------%2520--%253E%250A%253C%252Fnav%253E"
           style="width: 792px; height: 952px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <!-- Navigation component end -->
       </div>
+    </div>
     </section>
   </main>
   <footer class="flex-column">

@@ -1,57 +1,53 @@
-html{
-    --success_bg-color: rgb(140, 209, 140);
-    --error__bg-color:  rgb(247, 192, 192);
-    --warning__bg-color: rgb(236, 236, 82);
-    --info__bg-color: rgb(140, 230, 230);
+html {
+  --success_bg-color: rgb(140, 209, 140);
+  --error__bg-color: rgb(247, 192, 192);
+  --warning__bg-color: rgb(236, 236, 82);
+  --info__bg-color: rgb(140, 217, 230);
 }
 
-
 .alert {
-    color: rgb(53, 52, 52);
-    font-family: "FontAwesome";
-    padding: 5px 10px;
-    margin: 5px;
+  color: rgb(53, 52, 52);
+  font-family: "FontAwesome";
+  padding: 5px 10px;
+  margin: 5px;
 }
 
 .alert .alert-title {
-    display: inline;
+  display: inline;
 }
 
 /* ------------------------------- specific alerts ----------------------- */
 
 .alert-success {
-    background-color: var(--success_bg-color);
+  background-color: var(--success_bg-color);
 }
 
 .alert-error {
-    background-color: var(--error__bg-color)
+  background-color: var(--error__bg-color);
 }
 
 .alert-warning {
-    background-color: var(--warning__bg-color)
+  background-color: var(--warning__bg-color);
 }
 
 .alert-info {
-    background-color: var(--info__bg-color)
+  background-color: var(--info__bg-color);
 }
 
 /* ---------------------------icons for specific alerts------------- */
 
 .alert-success::before {
-    content: '\f058';
+  content: "\f058";
 }
 
 .alert-warning::before {
-    content: '\f071';
+  content: "\f071";
 }
 
 .alert-error::before {
-    content: '\f06a';
+  content: "\f06a";
 }
 
 .alert-info::before {
-    content: '\f05a';
+  content: "\f05a";
 }
-
-
-
