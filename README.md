@@ -35,16 +35,16 @@ This is a compoent library!!
 
 ## Components
 
-- Alert
-- Avatar
-- Badge
-- Button
-- Card
-- Input form
-- Responsive Images
-- Text Utilitites
-- Lists
-- Navigation
+- [Alert](socket-ui.netlify.app/docs.html#Alert)
+- [Avatar](socket-ui.netlify.app/docs.html#Avatar)
+- [Badge](socket-ui.netlify.app/docs.html#Badge)
+- [Button](socket-ui.netlify.app/docs.html#Button)
+- [Card](socket-ui.netlify.app/docs.html#Card)
+- [Input form](socket-ui.netlify.app/docs.html#Input-form)
+- [Responsive Images](socket-ui.netlify.app/docs.html#Responsive-images)
+- [Text Utilitites](socket-ui.netlify.app/docs.html#Text-utilities)
+- [Lists](socket-ui.netlify.app/docs.html#Lists)
+- [Navigation](socket-ui.netlify.app/docs.html#Navigation)
 
 ## Alert
 
