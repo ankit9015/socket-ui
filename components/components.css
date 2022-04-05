@@ -41,23 +41,19 @@ body {
   font: var(--description-font);
 }
 
-/* @media only screen and (min-width: 600px) {
-  html {
-    font-size: 100%;
-  }
+.button:hover,
+.link-btn:hover {
+  transform: scale(1.1);
+  transition: ease-in-out;
+  box-shadow: -2px -2px 5px var(--gray), 1px 2px 9px var(--dark-gray);
 }
 
-@media only screen and (min-width: 500px) {
-  html {
-    font-size: 75%;
-  }
+.nav-icon-link:hover,
+.navbar-link-list-item:hover,
+.floating-button:hover {
+  transform: scale(1.1);
+  transition: ease-in-out;
 }
-
-@media only screen and (max-width: 400px) {
-  html {
-    font-size: 50%;
-  }
-} */
 
 @media only screen and (min-width: 480px) {
   html {
