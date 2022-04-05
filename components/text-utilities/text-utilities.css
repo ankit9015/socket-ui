@@ -85,3 +85,7 @@
     color: var(--dark-gray);
 }
 
+.text-black {
+    color: var(--black);
+}
+
