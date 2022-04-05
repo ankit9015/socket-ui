@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../components.css" />
+    <link rel="stylesheet" href="./navigation-dropdown.css" />
+
+    <script
+      src="https://kit.fontawesome.com/124ff44aed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../components.css" />
+    <link rel="stylesheet" href="../navigation/navigation.css" />
+    <link rel="stylesheet" href="./navigation-dropdown.css" />
+  </head>
+  <body>
+    <nav class="navbar-container">
+      <!-- ------------------- Navbar left start ------------------- -->
+      <div class="navbar-left">
+        <div class="dropdown">
+          <div class="nav-icon-badge dropdown-button">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+          <ul class="dropdown-list">
+            <li><a class="dropdown-item" href="/">Home</a></li>
+            <li><a class="dropdown-item" href="/">Products</a></li>
+            <li><a class="dropdown-item" href="/">My Orders</a></li>
+            <li><a class="dropdown-item" href="/">Settings</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-logo">
+          <img src="../../images/logo-small.png" alt="logo" />
+        </div>
+      </div>
+
+      <!-- ----------------------- NavBar left end --------------- -->
+
+      <!-- ---------------------- Navbar right start -------------------- -->
+
+      <div class="right-navbar">
+        <div class="nav-icons list-style-none">
+          <div class="dropdown">
+            <a href="/" class="nav-icon-link dropdown-button">
+              <span class="badge nav-icon-badge">
+                <i class="fas fa-user"></i>
+              </span>
+              <span class="nav-icon-text">Guest</span>
+            </a>
+            <ul class="dropdown-list">
+              <li><a class="dropdown-item" href="/">Login</a></li>
+              <li><a class="dropdown-item" href="/">Signup</a></li>
+            </ul>
+          </div>
+
+          <a href="/" class="nav-icon-link">
+            <span class="badge nav-icon-badge">
+              <i class="fas fa-heart"></i>
+              <span class="badge-count">10</span>
+            </span>
+            <span class="nav-icon-text">Wishlist</span>
+          </a>
+          <a href="/" class="nav-icon-link">
+            <span class="badge nav-icon-badge">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="badge-count">10</span>
+            </span>
+            <span class="nav-icon-text">Cart</span>
+          </a>
+        </div>
+      </div>
+      <!-- ----------------------- Navbar right end -------------------------- -->
+    </nav>
+  </body>
+</html>

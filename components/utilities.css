@@ -1,69 +1,81 @@
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-center {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.gap-5 {
+  gap: 5px;
 }
 
 .flex-wrapped {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .bg-color-gray {
-    background-color: rgb(199, 197, 197);
+  background-color: rgb(199, 197, 197);
 }
 
 .bg-color-blue {
-    background-color: rgb(54, 149, 238)
+  background-color: rgb(54, 149, 238);
 }
-
 
 /* --------------------Padding------------------- */
 /* spacing values are written based on 1rem = 10px mentioned in root of component.css */
 
 .p-xs {
-    padding: 0.8rem;  
+  padding: 0.8rem;
 }
 .p-s {
-    padding: 1.6rem;
+  padding: 1.6rem;
 }
 .p-m {
-    padding: 2.4rem;
+  padding: 2.4rem;
 }
 .p-l {
-    padding: 3.2rem;
+  padding: 3.2rem;
 }
 .p-xl {
-    padding: 4rem;
+  padding: 4rem;
 }
 .p-xxl {
-    padding: 4.8rem;
+  padding: 4.8rem;
 }
 
 /* --------------------------Margin--------------------- */
 .m-xs {
-    margin: 0.8rem;  
+  margin: 0.8rem;
 }
 .m-s {
-    margin: 1.6rem;
+  margin: 1.6rem;
 }
 .m-m {
-    margin: 2.4rem;
+  margin: 2.4rem;
 }
 .m-l {
-    margin: 3.2rem;
+  margin: 3.2rem;
 }
 .m-xl {
-    margin: 4rem;
+  margin: 4rem;
 }
 .m-xxl {
-    margin: 4.8rem;
+  margin: 4.8rem;
+}
+
+.no-visible {
+  visibility: hidden;
+  width: auto;
 }
