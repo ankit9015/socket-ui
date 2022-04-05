@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
 
 @import url(../reset.css);
 @import url(./utilities.css);
@@ -13,52 +13,80 @@
 @import url(./responsive-images/responsive-images.css);
 @import url(./text-utilities/text-utilities.css);
 
-
 html {
-    /* font-size: 62.5%; */
+  font-size: 62.5%;
 
+  /* Colors */
+  --primary-color: #fcd34d;
+  --secondary-color: #2563eb;
+  --black: #1f2937;
+  --white: #f3f4f6;
+  --gray: rgb(228, 224, 224);
+  --dark-gray: rgb(105, 103, 103);
 
-    /* Colors */
-    --primary-color: #FCD34D;
-    --secondary-color: #2563EB;
-    --black: #1F2937;
-    --white: #F3F4F6;
-    --gray: rgb(228, 224, 224);
-    --dark-gray: rgb(105, 103, 103);
-
-
-    /* Typography */
-    --title-font: 'Lato', sans-serif;
-    --description-font: 'Roboto', sans-serif;
+  /* Typography */
+  --title-font: "Lato", sans-serif;
+  --description-font: "Roboto", sans-serif;
 }
 
 body {
-    font: var(--description-font);
+  font: var(--description-font);
 }
 
 .title-font {
-    font: var(--title-font);
+  font: var(--title-font);
 }
 
 .description-font {
-    font: var(--description-font);
+  font: var(--description-font);
 }
 
-
-@media only screen and (min-width: 600px){
-	html {
-        font-size: 100%;
-    }
+.button:hover,
+.link-btn:hover {
+  transform: scale(1.1);
+  transition: ease-in-out;
+  box-shadow: -2px -2px 5px var(--gray), 1px 2px 9px var(--dark-gray);
 }
 
-@media only screen and (min-width: 500px) {
-    html {
-        font-size: 75%;
-    }
+.nav-icon-link:hover,
+.navbar-link-list-item:hover,
+.floating-button:hover {
+  transform: scale(1.1);
+  transition: ease-in-out;
 }
 
-@media only screen and (max-width: 400px) {
-    html {
-        font-size: 50%;
-    }
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 47%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  html {
+    font-size: 57.5%;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  html {
+    font-size: 62.5%;
+  }
 }
