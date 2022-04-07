@@ -65,9 +65,7 @@ footer p {
   border-radius: 5px;
 }
 
-.frame-element {
-  width: 90%;
-  margin: 1rem;
-  padding: 1rem;
-  height: 30rem;
-}
+/* .responsive-images-container {
+  aspect-ratio: 2/0.5;
+
+} */
