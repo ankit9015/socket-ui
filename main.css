@@ -68,3 +68,32 @@ footer p {
     margin-top: 2rem;
 }
 
+<<<<<<< Updated upstream
+=======
+.border-box {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* .responsive-images-container {
+  aspect-ratio: 2/0.5;
+
+} */
+
+.height-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-block {
+  display: block;
+}
+
+.frame-element {
+  width: 90%;
+  margin: 1rem;
+  padding: 1rem;
+  height: 30rem;
+}
+>>>>>>> Stashed changes

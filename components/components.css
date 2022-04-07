@@ -12,6 +12,12 @@
 @import url(./navigation/navigation.css);
 @import url(./responsive-images/responsive-images.css);
 @import url(./text-utilities/text-utilities.css);
+@import url(./modal/modal.css);
+@import url(./navigation-dropdown/navigation-dropdown.css);
+@import url(./ratings/ratings.css);
+@import url(./toast/toast.css);
+@import url(./slider/slider.css);
+@import url(./simplified-grid/simplified-grid.css);
 
 
 html {
@@ -45,10 +51,21 @@ body {
 }
 
 
+<<<<<<< Updated upstream
 @media only screen and (min-width: 600px){
 	html {
         font-size: 100%;
     }
+=======
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+>>>>>>> Stashed changes
 }
 
 @media only screen and (min-width: 500px) {

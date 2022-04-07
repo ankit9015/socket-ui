@@ -1,0 +1,30 @@
+.navbar-container .dropdown {
+  display: relative;
+}
+
+.navbar-container .dropdown-item {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 5px;
+  margin: 2px 0;
+  transform: scale(1.1);
+  transition: ease-in-out;
+}
+
+.navbar-container .dropdown-list {
+  display: none;
+  position: absolute;
+  margin-top: 5px;
+  min-width: 16rem;
+  padding: 10px 5px;
+  background-color: var(--white);
+  border: 1px solid var(--dark-gray);
+}
+
+.dropdown:hover .dropdown-button {
+  transform: scale(1.1);
+}
+
+.navbar-container .dropdown:hover .dropdown-list {
+  display: block;
+}
