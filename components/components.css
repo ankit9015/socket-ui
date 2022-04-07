@@ -12,6 +12,12 @@
 @import url(./navigation/navigation.css);
 @import url(./responsive-images/responsive-images.css);
 @import url(./text-utilities/text-utilities.css);
+@import url(./modal/modal.css);
+@import url(./navigation-dropdown/navigation-dropdown.css);
+@import url(./ratings/ratings.css);
+@import url(./toast/toast.css);
+@import url(./slider/slider.css);
+@import url(./simplified-grid/simplified-grid.css);
 
 html {
   font-size: 62.5%;
