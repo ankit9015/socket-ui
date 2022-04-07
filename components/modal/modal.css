@@ -1,0 +1,40 @@
+.modal-container {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  width: 30rem;
+  height: 15rem;
+  border: 2px solid var(--shadow-gray);
+  border-radius: 5px;
+}
+
+.modal-header,
+.modal-body {
+  border-bottom: 2px solid var(--shadow-gray);
+  padding: 5px;
+}
+
+.modal-body {
+  flex: 1;
+}
+
+.modal-header {
+  display: flex;
+}
+
+.modal-close {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.modal-close:hover {
+  color: var(--dark-gray);
+}
+
+.modal-footer {
+  padding-top: 5px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}

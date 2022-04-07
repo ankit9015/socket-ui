@@ -1,0 +1,12 @@
+.slider-primary {
+  accent-color: var(--primary-color);
+}
+
+.slider-secondary {
+  accent-color: var(--secondary-color);
+}
+
+.slider-primary:hover,
+.slider-secondary:hover {
+  cursor: pointer;
+}

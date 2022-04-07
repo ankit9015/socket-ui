@@ -1,0 +1,24 @@
+.grid-2,
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.grid-item {
+  background-color: red;
+  min-height: 30rem;
+}
+
+.blue-container {
+  background-color: blue;
+}
+
+@media (min-width: 760px) {
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
